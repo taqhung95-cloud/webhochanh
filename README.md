@@ -51,3 +51,11 @@ Font Baloo 2 và Nunito tải qua Google Fonts (có font hệ thống dự phòn
 - Jordi: [ảnh gốc](https://www-cf.pinkfong.com/ip/character_main_image/20260309/788077d69fe3a20df35bf61dd6390b18.png) → `pf-jordi.png`
 - Coco: [ảnh gốc](https://www-cf.pinkfong.com/ip/character_main_image/20260309/7f53f2f9bbec1780b36d1ba44014c1a2.webp) → `pf-coco.webp`
 - Tani: [ảnh gốc](https://www-cf.pinkfong.com/ip/character_main_image/20260309/f7e548408795574c5f6ab9e645b9f4e2.webp) → `pf-tani.webp`
+
+## Giao diện iPad & màu sắc
+
+Tông hồng công chúa, nền hồng phấn và nút hồng đậm. Bố cục tablet kiểm tra ở 820×1180 (dọc), 1180×820 (ngang), và 1180×720 khi thanh công cụ trình duyệt chiếm chỗ. Dọc: menu 6 ô trên đầu; ngang: thanh điều hướng bên trái và hai vùng ghép tranh cạnh nhau. Hình và canvas dùng kích thước linh hoạt; không cố định trang theo độ phân giải vật lý.
+
+## Bé chưa đọc chữ
+
+Điều khiển bằng biểu tượng lớn, tên trò chơi ngắn và chữ to. Chọn tranh bằng ảnh; độ khó ghép hình dùng 4 lưới trực quan. Xưởng vẽ có 8 tranh viền đen (cá mập, cá, bướm, hoa, rùa, mèo, nhà, kem), tô màu bằng chạm/kéo qua các vùng vector kín nên không lem ra ngoài. Có bảng màu, hoàn tác, tô lại và tải PNG; chế độ vẽ tự do vẫn có sẵn.
