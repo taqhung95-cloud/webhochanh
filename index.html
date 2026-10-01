@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f7ee">
+  <meta name="description" content="Cùng cá mập Mimo học chữ, đếm số, ghép tranh và sáng tạo. Hoạt động song ngữ dành cho bé từ 3 tuổi, lấy cảm hứng từ Montessori.">
+  <title>Mimo • Đại dương học vui</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./audio.js" defer></script><script src="./art.js" defer></script><script src="./app.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#home" aria-label="Mimo - Trang chủ"><span class="brand-mark">m</span><span>mimo<span class="brand-dot">.</span><small id="brand-caption">HỌC QUA KHÁM PHÁ</small></span></a>
+      <nav id="navigation" aria-label="Hoạt động"></nav>
+      <div class="sidebar-bottom"><div class="tiny-ocean">✦ <span>◡</span> ✦</div><p id="sidebar-copy">Một chút tò mò.<br>Một biển điều hay.</p><button id="parent-btn" class="parent-button"><span>⚙</span> <span id="parent-label">Dành cho ba mẹ</span></button></div>
+    </aside>
+    <div class="main-shell">
+      <header class="topbar"><div class="breadcrumb" id="breadcrumb">Góc khám phá của bé <span> / </span> Đại dương học vui</div><div class="header-controls"><div class="language-switch" aria-label="Ngôn ngữ"><button id="vi-btn" aria-pressed="true">VI</button><button id="en-btn" aria-pressed="false">EN</button></div><button class="sound-button" id="sound-btn" aria-label="Tắt âm thanh" title="Âm thanh">♪</button><span class="avatar" aria-label="Bạn nhỏ">☺</span></div></header>
+      <main id="main" tabindex="-1"></main>
+      <footer><span id="footer-copy">Bé tự chọn · Bé tự khám phá · Bé lớn lên mỗi ngày</span><span>MIMO <span class="footer-wave">≈</span> LITTLE OCEAN, BIG DISCOVERIES</span></footer>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <dialog id="parent-dialog" aria-labelledby="parent-title"><div class="dialog-header"><h2 id="parent-title">Góc của ba mẹ</h2><button id="close-parent" class="icon-btn" aria-label="Đóng">×</button></div><div id="parent-content"></div></dialog>
+</body>
+</html>
